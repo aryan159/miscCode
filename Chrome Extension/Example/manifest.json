@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "css": [ "main.css" ],
+      "js": [ "words.js", "main.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Auto-complete for the desktop web.",
+   "icons": {
+      "540": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ZD90iG/Fx1KzW+BVwtlWaDMxv65/VOnV3XhOCm8nNmYvkAjJsAj2FDcOEBfsp9CBrBR71tvANX8rK3nGJnxoBSc92N0Qm5rVF5CdFn/GMV/ZsPx3QomUODJ5oupI+eciFtTQhC7fmE49lLnE7JbD8/YsTjLIN5EY6bZGG0/IPtbJYMljh1y8aETshO/gZof3GGwBDdeIHgs+jvJwzPS3qvuL5BYBa7VK8VXJfWZokp6Sml/GRDTM+HXNSB+y9wgrZbIDpYYtrYr3+jf0ZbA1Of3GQP1MBvpr6ZGeqoWpXpioMLkegCSz8iI1OM+00rEKocBUjz/OplmJetHcesXBwIDAQAB",
+   "manifest_version": 2,
+   "name": "Auto-complete",
+   "short_name": "Auto-complete",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.2"
+}
